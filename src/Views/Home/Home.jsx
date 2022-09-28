@@ -26,7 +26,7 @@ const Home = () => {
           margin: 0,
         }}
       >
-        Title
+        Shopping Scanner
       </h1>
       {/* Lo mismo que arriba pero los estilos estan aplicados al componente */}
       <ParamH1 newFontSize='2rem'>Styled Component</ParamH1>
