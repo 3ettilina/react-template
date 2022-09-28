@@ -34,7 +34,7 @@ const Home = () => {
       <div style={{ width: 300 }}>
         <TextField
           id='standard-basic'
-          label='Un hermoso y vacío placeholder'
+          label='Agrega una URL aquí'
           variant='standard'
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
