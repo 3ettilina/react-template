@@ -26,7 +26,7 @@ const Home = () => {
           margin: 0,
         }}
       >
-        Title
+        Product Scanner
       </h1>
       {/* Lo mismo que arriba pero los estilos estan aplicados al componente */}
       <ParamH1 newFontSize='2rem'>Styled Component</ParamH1>
@@ -34,7 +34,7 @@ const Home = () => {
       <div style={{ width: 300 }}>
         <TextField
           id='standard-basic'
-          label='Un hermoso placeholder'
+          label='Agrega una URL aquí'
           variant='standard'
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
